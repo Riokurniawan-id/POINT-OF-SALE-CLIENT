@@ -2,7 +2,7 @@ import styles from "./index.module.css";
 import { useRouter } from "next/router";
 import { MENU_LIST } from "./constants";
 
-const Layout = () => {
+const Layout = ({ children }) => {
   const router = useRouter();
   const handleChangePage = (path) => {
     router.push(path);
@@ -26,7 +26,7 @@ const Layout = () => {
           </ul>
         </nav>
       </aside>
-      <section></section>
+      <section className={styles.content}>{children}</section>
     </main>
   );
 };
