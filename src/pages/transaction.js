@@ -1,6 +1,6 @@
 import Layout from "@/components/layouts/Layout";
 
-export default function Home() {
+export default function Transaction() {
   return (
     <>
       <Layout />
