@@ -4,7 +4,7 @@ export default function Transaction() {
   return (
     <>
       <Layout>
-        <p>Transaction</p>
+        <h1>Transaction</h1>
       </Layout>
     </>
   );
